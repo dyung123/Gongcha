@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>공차 프로젝트</title>
+    <!--reset-->
+    <link href="./css/reset.css" rel="stylesheet" type="text/css">
+    <!--공통-->
+    <link href="./css/base.css" rel="stylesheet" type="text/css">
+    <!--모바일화면 -->
+    <link href="./css/mobile.css" rel="stylesheet" type="text/css">
+    <!-- 스와이퍼 슬라이드 서식 -->
+    <link rel="stylesheet" href="./css/swiper.css" type="text/css">
+    <!-- 플렉스 슬라이드 -->
+    <!-- <link href="./css/flex.css" rel="stylesheet" type="text/css"> -->
+     <!-- 아이콘폰트 주소 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- 벤더프리픽스 -->
+    <script src="./script/prefixfree.min.js"></script>
+
+    <script src="./script/swiper.js"></script>
+    <!-- 제이쿼리 소스 -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script> -->
+    <!-- 플렉스 슬라이드 제이쿼리 소스 -->
+    <!-- <script src="./script/jquery.flexslider.js"></script> -->
+
+
+</head>
+<body>
+    <input type="checkbox" id="toggle">
+
+    <!-- 헤더영역 -->
+    <header>
+        <div class="header_inner">
+            <h1>
+                <a href="index.html" title="메인페이지 바로가기">
+                    <img src="./image/logo.png" alt="상단로고">
+                </a>
+            </h1>
+            <!-- 오른쪽 상단 내비 -->
+            <nav class="lnb">
+                <ul>
+                    <li><a href="https://ko-kr.facebook.com/" title="페이스북링크">
+                        <label for="face"> <i class="fab fa-facebook-square"></i></label>
+                    </a></li>
+                    <li><a href="https://www.instagram.com//" title="인스타링크">
+                        <label for="ins"> <i class="fab fa-instagram"></i></label>
+                    </a></li>
+                    <li><a href="https://twitter.com/?lang=ko" title="트위터링크">
+                        <label for="twit"> <i class="fab fa-twitter-square"></i></label>
+                    </a></li>
+                </ul>
+            </nav>
+
+            <!-- 모바일용 햄버거 메뉴와 검색아이콘 -->
+            <label for="toggle" class="toggle_btn"><i class="fas fa-bars"></i></label>
+
+      <i class="fas fa-search s1"></i>
+    </div>
+      <!-- 메인메뉴 -->
+      <nav class="gnb">
+        <label for="toggle"><i class="fas fa-times"></i></label>
+        <ul>
+            <li><a href="brand.html" title="브랜드">Brand<i class="fas fa-angle-down"></i></a>
+                <ul class="sub">
+                    <li><a href="brand.html" title="브랜드 소개">브랜드 소개</a></li>
+                    <li><a href="brand.html" title="공차의 약속">공차의 약속</a></li>
+                    <li><a href="brand.html" title="브랜드 아이덴티티">브랜드 아이덴티티</a></li>
+                    <li><a href="brand.html" title="세계속의 공차">세계속의 공차</a></li>
+                </ul>
+            </li>
+            <li><a href="menu.html" title="메뉴">Menu<i class="fas fa-angle-down"></i></a>
+                <ul class="sub">
+                    <li><a href="brand.html" title="주문방법">주문방법</a></li>
+                    <li><a href="brand.html" title="음료">음료</a></li>
+                    <li><a href="brand.html" title="빙수">빙수</a></li>
+                    <li><a href="brand.html" title="디저트">디저트</a></li>
+                    <li><a href="brand.html" title="MD상품">MD상품</a></li>
+                    <li><a href="brand.html" title="티스토리">티스토리</a></li>
+                    <li><a href="brand.html" title="주문방법">주문방법</a></li>
+                </ul></li>
+            <li><a href="store.html" title="스토어">Store<i class="fas fa-angle-down"></i></a>
+                <ul class="sub">
+                    <li><a href="brand.html" title="매장 찾기">매장찾기</a></li>
+                    <li><a href="brand.html" title="가맹점 개설문의">가맹점 개설문의</a></li>
+                </ul>
+            </li>
+            <li><a href="membership.html" title="멤버쉽">membership<i class="fas fa-angle-down"></i></a>
+                <ul class="sub">
+                    <li><a href="brand.html" title="NEW 공차 멤버쉽">NEW 공차 멤버십</a></li>
+                    <li><a href="brand.html" title="공차 카드 & e-gift">공차 카드 & e-gift</a></li>
+                    <li><a href="brand.html" title="FAQ">FAQ</a></li>
+                </ul>
+            </li>
+            <li><a href="benefit.html" title="베네핏">Benefit<i class="fas fa-angle-down"></i></a>
+                <ul class="sub">
+                    <li><a href="brand.html" title="통신사 제휴">통신사 제휴</a></li>
+                    <li><a href="brand.html" title="결제 서비스">결제 서비스</a></li>
+                </ul>
+            </li>
+            <li><a href="event.html" title="이벤트">Event<i class="fas fa-angle-down"></i></a>
+                <ul class="sub">
+                    <li><a href="brand.html" title="이벤트">이벤트</a></li>
+                    <li><a href="brand.html" title="공차소식">공차 소식</a></li>
+                </ul>
+            </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- 메인영역 -->
+    
+    <!-- 메인슬라이드 -->
+    <main>
+        <h3>메인슬라이드</h3>
+    <article class="mobile">
+        <div class="swiper-container mobile_wrapper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide"><img src="./image/m_main1.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/m_main2.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/m_main3.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/m_main4.jpg" alt=""></div>
+                <div class="swiper-slide"><img src="./image/m_main5.jpg" alt=""></div>
+            </div>
+             <!-- 콘트롤 버튼 삽입하기 -->
+             <div class="swiper-pagination"></div>
+            </div>
+
+
+        <article class="pc">
+            <div class="swiper-container pc_wrapper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./image/main1.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/main2.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/main3.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/main4.jpg" alt=""></div>
+                    <div class="swiper-slide"><img src="./image/main5.jpg" alt=""></div>
+                </div>
+                <!-- 좌우버튼 서식 -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+    </article>
+
+        <h2>Best Beverage</h2>
+        <!-- 상품목록 슬라이드 -->
+            <article class="drink">
+                <div class="swiper-container drink_wrapper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><a href="#" title="음료1"><img src="./image/drink1.png" alt="음료1"><br><p class="m_01">피스타치오 밀크티</p></a></div>
+                        <div class="swiper-slide"><a href="#" title="음료2"><img src="./image/drink2.png" alt="음료2"><br><p class="m_01">블랙 밀크티</p></a></div>
+                        <div class="swiper-slide"><a href="#" title="음료3"><img src="./image/drink3.png" alt="음료3"><br><p class="m_01">타로 밀크티</p></a></div>
+                        <div class="swiper-slide"><a href="#" title="음료4"><img src="./image/drink4.png" alt="음료4"><br><p class="m_01">제주그린 밀크티</p></a></div>
+                        <div class="swiper-slide"><a href="#" title="음료5"><img src="./image/drink7.png" alt="음료7"><br><p class="m_01">청포도 그린티</p></a></div>
+                        <div class="swiper-slide"><a href="#" title="음료6"><img src="./image/drink6.png" alt="음료6"><br><p class="m_01">망고요구르트</p></a></div>
+                        <div class="swiper-slide"><a href="#" title="음료7"><img src="./image/drink5.jpg" alt="음료7"><br><p class="m_01">초콜릿 밀크티</p></a></div>
+                    </div>
+                        <!-- 콘트롤 버튼 삽입하기 -->
+                <div class="swiper-pagination"></div>
+                </div>
+            
+            </article>
+
+            
+            <!-- 상품목록 슬라이드 -->
+            <h2>Gongcha Dessert</h2>
+                <article class="dessert">
+                    <div class="swiper-container dessert_wrapper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide"><a href="#" title="디저트1"><img src="./image/dessert1.png" alt="디저트1"><br><p class="m_01">너트 브라우니</p></a></div>
+                            <div class="swiper-slide"><a href="#" title="디저트2"><img src="./image/dessert2.png" alt="디저트2"><br><p class="m_01">말렌카 케이크(월넛)</p></a></div>
+                            <div class="swiper-slide"><a href="#" title="디저트3"><img src="./image/dessert3.png" alt="디저트3"><br><p class="m_01">레몬 슈가파운드</p></a></div>
+                            <div class="swiper-slide"><a href="#" title="디저트4"><img src="./image/dessert4.jpg" alt="디저트4"><br><p class="m_01">아이스 연유 크림 카스테라</p></a></div>
+                            <div class="swiper-slide"><a href="#" title="디저트5"><img src="./image/dessert5.jpg" alt="디저트5"><br><p class="m_01">스틱 치즈케익</p></a></div>
+                            <div class="swiper-slide"><a href="#" title="디저트6"><img src="./image/dessert6.png" alt="디저트6"><br><p class="m_01">피스타치오 밀크티</p></a></div>
+                            <div class="swiper-slide"><span class="event"></span><img src="./image/dessert6.png" alt=""></span></div>
+                        </div>
+                            <!-- 콘트롤 버튼 삽입하기 -->
+                    <div class="swiper-pagination"></div>
+                    </div>
+                
+                </article>
+
+                <section class="con">
+                    <h2>콘텐츠 영역</h2>
+                    <article class="order">
+                        <a href="https://www.gong-cha.co.kr/brand/menu/order.php" title="공차 주문법">
+                            <img src="./image/con1.jpg" alt="주문법" ></a>
+                            <h4>HOW TO ORDER 주문하기<br></h4>
+                            <h5>공차는 취향에 맞게 토핑, 당도, 얼음량까지
+                                맞춤주문 가능합니다.</h5>
+                            <div class="more"><a href="#" title="자세히 보기"><span class="view">자세히 보기</span></a></div>
+                    </article>
+                    <article class="delivery">
+                        <h2>배달서비스</h2>
+                        <a href="a.html" title="배달서비스">
+                          <img src="./image/con2.png" alt="배달">
+                          </a>
+                      </article>
+                      <article class="shop">
+                        <h2>오픈매장</h2>
+                        <a href="a.html" title="오픈매장">
+                          <img src="./image/con3.jpg" alt="매장">
+                          </a>
+                      </article>
+                      
+                </section>
+                <article class="founded">
+                    <h2>창업</h2>
+                    <a href="a.html" title="창업"><img src="./image/bgi 1.jpg" alt="창업"></a>
+                    <h4>공들여 맛있는 차,<br>공차<br></h4>
+                      <h5>공차만의 프랜차이즈 운영<br>노하우로 안정된 창업을 이루세요.</h5>
+                      <div class="show"><a href="#" title="자세히 보기"><span class="view">자세히 보기</span></a></div>
+                  </article>
+
+                  <!-- 이벤트 슬라이드 -->
+            <h2>Gongcha Event</h2>
+            <article class="event">
+                <div class="swiper-container event_wrapper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="./image/event1.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/event2.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/event3.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/event4.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/event5.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/event6.jpg" alt=""></div>
+                        <div class="swiper-slide"><img src="./image/event7.jpg" alt=""></div>
+                    </div>
+                        <!-- 콘트롤 버튼 삽입하기 -->
+                <div class="swiper-pagination"></div>
+                </div>
+    </main>
+
+    <!-- 푸터영역 -->
+  <footer>
+    <nav class="f_lnb">
+     <ul>
+       <li><a href="a.html" title="회사소개">회사소개 / 오시는길</a></li>
+       <li><a href="a.html" title="제휴/제안">제휴 / 제안</a></li>
+       <li><a href="tel:080-0000-0000" title="고객센터">고객센터</a></li>
+       <li><a href="tel:080-0000-0000" title="개인정보처리방침">개인정보처리방침</a></li>
+       <li><a href="tel:080-0000-0000" title="이메일무단수집거부">이메일무단수집거부</a></li>
+       <li><a href="tel:080-0000-0000" title="HOT-LINE">HOT LINE</a></li>
+       <li><a href="tel:080-0000-0000" title="사이트맵">사이트맵</a></li>
+     </ul>
+    </nav>
+ 
+    <nav class="sns">
+        <li><a href="https://ko-kr.facebook.com/" title="페이스북링크">
+            <label for="face"> <i class="fab fa-facebook-square"></i></label>
+        </a></li>
+        <li><a href="https://www.instagram.com//" title="인스타링크">
+            <label for="ins"> <i class="fab fa-instagram"></i></label>
+        </a></li>
+        <li><a href="https://twitter.com/?lang=ko" title="트위터링크">
+            <label for="twit"> <i class="fab fa-twitter-square"></i></label>
+        </a></li>
+    </nav>
+ 
+    <address>
+   <p>고객센터02-779-7758(운영시간: 오전 9시 30분 ~ 오후 5시 30분 / 점심시간: 낮 12시 ~ 오후 1시 / 주말 및 공휴일 휴무)</p>
+   <p>서울 종로구 종로 47(공평동, 7층)㈜공차코리아<br>
+    대표이사 이봉진사업자등록번호 214-88-84534통신판매번호: 2020-서울종로-0966
+ 
+   </p>
+    </address>
+   </footer>
+   서울 종로구 종로 47(공평동, 7층)㈜공차코리아 대표이사 이봉진사업자등록번호 214-88-84534통신판매번호: 2020-서울종로-0966
+ 
+</body>
+<script>
+    var swiper = new Swiper(".mobile_wrapper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      pagination:{
+        el:".swiper-pagination",
+        clickable:true
+      },
+    });
+
+    var swiper = new Swiper(".pc_wrapper", {
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: {
+        delay: 2500,
+        disableOnInteraction: false,
+      },
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+ 
+    var swiper = new Swiper(".drink_wrapper", {
+      spaceBetween: 30,//슬라이드 사이여백
+      centeredSlides: false,//슬라이드 가운데
+      autoplay: {
+        delay: 3400,
+        disableOnInteraction: false,
+      },
+      pagination:{
+        el:".swiper-pagination",
+        clickable:true
+      },
+      breakpoints:{
+        320:{
+            slidesPerView:2,
+        },
+        768:{
+            slidesPerView:3,
+        },
+        1025:{
+            slidesPerView:4,
+        }
+      }
+      },
+    );
+
+    var swiper = new Swiper(".dessert_wrapper", {
+      spaceBetween: 30,//슬라이드 사이여백
+      centeredSlides: false,//슬라이드 가운데
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination:{
+        el:".swiper-pagination",
+        clickable:true
+      },
+      breakpoints:{
+        320:{
+            slidesPerView:2,
+        },
+        768:{
+            slidesPerView:3,
+        },
+        1025:{
+            slidesPerView:4,
+        }
+      }
+      },
+    );
+
+    var swiper = new Swiper(".event_wrapper", {
+      spaceBetween: 30,//슬라이드 사이여백
+      centeredSlides: false,//슬라이드 가운데
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      pagination:{
+        el:".swiper-pagination",
+        clickable:true
+      },
+      breakpoints:{
+        320:{
+            slidesPerView:2,
+        },
+        768:{
+            slidesPerView:3,
+        },
+        1025:{
+            slidesPerView:4,
+        }
+      }
+      },
+    );
+  </script>
+
+</html>
